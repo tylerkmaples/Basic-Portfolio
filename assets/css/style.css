@@ -1,0 +1,13 @@
+#name {
+    background-color: teal;
+    width: 20%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    /* margin-left: 30%; */
+}
+
+#links {
+    float: right;
+    /* border-style: solid; */
+}
