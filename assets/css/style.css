@@ -1,7 +1,46 @@
 body {
+    background-image: url(../images/dust_scratches.png);   
+}
+
+.container {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+
+}
+
+#nameheader {
+    background: #4aaaa5;
+    width: 33%;
+}
+
+#links {
+    background: #ffffff;
+    width: 100%;
+}
+
+#content {
+    clear: both;
+    background: #ffffff;
+}
+
+#content h1 {
+    color: #4aaaa5;
+}
+
+#bio-image {
+    float: left;
+}
+
+#footer {
+    clear: both;
+}
+
+
+/* body {
     background-image: url(../images/dust_scratches.png);
     color: #777777;
-    /* width: 960px; */
+    width: 960px;
 }
 
 h1 {
@@ -15,33 +54,33 @@ header {
     border-style: solid;
     border-width: 1px;
     border-color: #cccccc;
-    /* position: fixed; */
-    /* padding: 2%; */
-    /* top: 0;
-    right: 0; */
-    /* display: inline-table; */
+    position: fixed;
+    padding: 2%;
+    top: 0;
+    right: 0;
+    display: inline-table;
     margin: 0 auto;
 }
 
-/* header {
+header {
     background-color: #4aaaa5;
     
-} */
+} 
 
 aside {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* padding: 2%; */
+    padding: 2%;
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px;
     background-color: #4aaaa5;
     width: 20%;
-    /* position: fixed; */
-    /* top: 0;
-    left: 0; */
+    position: fixed;
+    top: 0;
+    left: 0;
     text-align: center;
-    /* position: absolute; */
+    position: absolute;
     display: inline-block;
     float: left;
 }
@@ -66,7 +105,7 @@ aside {
     border-color: #dddddd;
     width: 960px;
     margin: 100px auto;
-    /* position: relative; */
+    position: relative;
     padding: 1%;
     
 }
@@ -77,4 +116,4 @@ aside {
 
 #bio-image {
     float: left;
-}
+}*/
