@@ -9,31 +9,30 @@ body {
 
 }
 
-#nameheader {
-    background: #4aaaa5;
-    width: 33%;
-}
-
-#links {
-    background: #ffffff;
+#navwrap {
     width: 100%;
-}
-
-#content {
-    clear: both;
     background: #ffffff;
+    border-bottom: solid;
+    border-color: #cccccc;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-#content h1 {
-    color: #4aaaa5;
+#navcontent {
+    width: 960px;
+    overflow: auto;
 }
 
-#bio-image {
+#navhead {
+    background: #4aaaa5;
     float: left;
 }
 
-#footer {
-    clear: both;
+#navlinks {
+    background: #ffffff;
+    float: right;
+
 }
 
 
