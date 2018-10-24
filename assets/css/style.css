@@ -13,25 +13,24 @@ body {
     position: fixed;
 }
 
-#navcontent {
-    width: 960px;
-}
-
 #navhead {
     background: #4aaaa5;
     float: left;
-    margin-left: 286px;
+    margin-left: 285px;
     color: #ffffff;
-    width: 200px;
+    width: 240px;
+    padding: 1px;
     text-align: center;
 }
 
 #navlinks {
     background: #ffffff;
     float: right;
-    margin-top: 30px;
-    margin-right: 160px;
-
+    margin-top: 27px;
+    margin-right: 280px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #content {
@@ -46,19 +45,31 @@ body {
     color: #777777;
 }
 
-#aboutme {
-    color: #4aaaa5;
-    font-size: 20px;
+#aboutmehead {
     border-bottom: solid;
     border-color: #dddddd;
-    padding: 5px;
+    border-width: 3px;
     margin-left: 20px;
+    margin-right: 15px;
+}
+
+#aboutme {
+    color: #4aaaa5;
+    padding: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 #bioimage {
     float: left;
     padding: 20px;
+    margin-left: 5px;
+}
+
+#bio {
+    line-height: 1.8;
+    padding: 10px;
 }
 
 #footer {
@@ -67,7 +78,20 @@ body {
     border-width: 4px;
     width: 100%;
     bottom: 0;
+    left: 0;
+    position: fixed;    
 }
+
+#copyright {
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 20px;
+    bottom: 0;
+
+}
+
+
 /* body {
     background-image: url(../images/dust_scratches.png);
     color: #777777;
