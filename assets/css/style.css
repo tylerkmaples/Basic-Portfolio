@@ -141,3 +141,84 @@ body {
     
 }
 
+#contactcontent {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-top: 120px;
+    overflow: auto;
+    color: #777777;
+}
+
+#contacthead {
+    border-bottom: solid;
+    border-color: #dddddd;
+    border-width: 3px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+#contact {
+    color: #4aaaa5;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background:#4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background: #008080;
+}
+
+#formcontainer {
+    padding: 20px;
+}
+
+/* form {
+    margin: auto;
+    position: relative;
+    line-height: 24px;
+    padding: 20px;
+}
+
+#formcontent {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    height: 25px;
+    width: 920px;
+}
+
+textarea#message {
+    width: 920px;
+    height: 150px;
+    display: block;
+}
+
+#formbutton {
+    width: 100px;
+} */
