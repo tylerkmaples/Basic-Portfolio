@@ -127,7 +127,7 @@ body {
 .portfoliopics {
     /* display: inline; */
     float: left;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 20px;
     position: relative;
 }
 
@@ -140,6 +140,8 @@ body {
     width: 250px;
     text-align: center;
     bottom: 20px;
+    font-size: 15px;
+    line-height: 10px;
     
 }
 
